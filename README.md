@@ -3,13 +3,15 @@
 
 H2O wave [plot](https://wave.h2o.ai/docs/examples/plot-point-sizes) add synth package. Without synth, it shows following error.
 
-###Run  wave app
+### Run  wave app
 ![CMD Error](screenshot/cmd_error.PNG)
 
-###Import the synth, it shows the error.
+
+### Import the synth, it shows the error.
+
 ![FILE Error](screenshot/synth_pkg_pycham_show_error.PNG)
 
-###Run the following command
+### Run the following command
 
 ```bash
     pip install -i https://test.pypi.org/simple/ synth
@@ -17,13 +19,13 @@ H2O wave [plot](https://wave.h2o.ai/docs/examples/plot-point-sizes) add synth pa
 
 
 
-###Run the App
+### Run the App
 
 ```bash
  wave run main
 ```
 
-###View the App
+### View the App
 
 Point your favorite web browser to [localhost:10101/demo](http://localhost:10101/demo)
 
